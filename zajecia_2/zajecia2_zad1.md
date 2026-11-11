@@ -1,9 +1,9 @@
 # Analiza weryfikacji pokrycia kodu
 
-**funkcja pod testami:** `convert_to_polish_name(number: int) -> str`
-**plik z implementacją (z eportalu):** `number_converter.py`
-**plik z testami:** `number_converter_tester.py` (20 metod testowych, TC-01 do TC-20)
-**narzędzie:** `coverage.py`
+**funkcja pod testami:** `convert_to_polish_name(number: int) -> str`  
+**plik z implementacją (z eportalu):** `number_converter.py`  
+**plik z testami:** `number_converter_tester.py` (20 metod testowych, TC-01 do TC-20)  
+**narzędzie:** `coverage.py`  
 
 ## Poprawki w testach
 
