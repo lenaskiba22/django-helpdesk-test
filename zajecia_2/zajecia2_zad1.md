@@ -1,4 +1,6 @@
 # Analiza weryfikacji pokrycia kodu
+# Zajęcia 2 zadanie 1
+
 
 **funkcja pod testami:** `convert_to_polish_name(number: int) -> str`  
 **plik z implementacją (z eportalu):** `number_converter.py`  
