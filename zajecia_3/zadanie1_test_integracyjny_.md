@@ -1,7 +1,6 @@
 # Test integracyjny: zależności między zgłoszeniami
 # Zajęcia 3 zadanie 1
 
-
 ## 1. Wybrany punkt integracji
 
 Przetestowano integrację pomiędzy:
@@ -134,8 +133,6 @@ A status po save(): 3  # Resolved
 | **Pokazanie** | 1. Utwórz zależność blokującą B od A. 2. Ustaw B na "Open". 3a. W shellu wywołaj "update_ticket(user, ticket_a, new_status=Ticket.RESOLVED_STATUS)" - status mimo to zmienia się na "Resolved". 3b. Niezależnie, zresetuj A na "Open" i spróbuj samego "ticket_a.status = Ticket.RESOLVED_STATUS; ticket_a.save()" - wynik identyczny. 4. Sprawdź status po każdej próbie. |
 | **Wynik oczekiwany** | Zapis odrzucony lub cofnięty |
 | **Wynik rzeczywisty** | Status zapisany jako "Resolved" (3), w obu wariantach. |
-| **Sugerowana naprawa** | Dodać walidację "can_be_resolved" bezpośrednio w metodzie "save()" modelu "Ticket" (lub w "clean()" wywoływanym przed zapisem) i podnosić wyjątek / blokować zapis, gdy warunek nie jest spełniony - niezależnie od tego, czy formularz, "update_ticket()" czy komenda zarządzająca inicjuje zmianę statusu. Dzięki temu integracja byłaby poprawna w obu miejscach, a nie tylko odzwierciedlana w szablonie. |
-
----
+| **Sugerowana naprawa** | Dodać walidację "can_be_resolved" bezpośrednio w metodzie "save()" modelu "Ticket" (lub w "clean()" wywoływanym przed zapisem) i podnosić wyjątek / blokować zapis, gdy warunek nie jest spełniony - niezależnie od tego, czy formularz, "update_ticket()" czy komenda zarządzająca inicjuje zmianę statusu. Dzięki temu integracja byłaby poprawna w obu miejscach, a nie tylko odzwierciedlana w szablonie.|
 
 
