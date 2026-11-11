@@ -1,4 +1,6 @@
-# Zadanie 1 - Test integracyjny: zależności między zgłoszeniami
+#Test integracyjny: zależności między zgłoszeniami
+# Zajęcia 3 zadanie 1
+
 
 ## 1. Wybrany punkt integracji
 
