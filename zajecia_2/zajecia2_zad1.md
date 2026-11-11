@@ -47,7 +47,7 @@ number_converter.py      37      1     22      1    97%   25
 TOTAL                    37      1     22      1    97%
 ```
 
-Cały zestaw 20 testów pokrywa **97%** linii i rozgałęzień kodu funkcji (36 z 37 instrukcji), więc mimo 1 niepowodzenia pokrycie kodu jest wysokie. Należy jednak pamiętać, że pokrycie i poprawność to dwie różne miary: kod może być w dużej mierze testowany, a mimo to zwracać błędne wyniki.
+Cały zestaw 20 testów pokrywa 97% linii i rozgałęzień kodu funkcji (36 z 37 instrukcji), więc mimo 1 niepowodzenia pokrycie kodu jest wysokie. Należy jednak pamiętać, że pokrycie i poprawność to dwie różne miary: kod może być w dużej mierze testowany, a mimo to zwracać błędne wyniki.
 
 ## Przypadek testowy z największym samodzielnym pokryciem
 
@@ -61,7 +61,7 @@ coverage report -m
 
 Największe samodzielne pokrycie osiąga:
 
-**`test_no_extra_whitespace` (TC-16) — 90%** (34/37 linii, 19/22 rozgałęzień pokryte):
+`test_no_extra_whitespace` (TC-16) - 90% (34/37 linii, 19/22 rozgałęzień pokryte):
 
 ```
 Name                  Stmts   Miss Branch BrPart  Cover   Missing
