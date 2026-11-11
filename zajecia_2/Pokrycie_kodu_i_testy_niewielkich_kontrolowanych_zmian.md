@@ -1,4 +1,6 @@
 # Pokrycie kodu i testy niewielkich kontrolowanych zmian  
+# Zajęcia 2 zadanie 2
+
 
 **Zestaw testów - testy z 1 zajęć:** `tests/test_blackbox.py`  
 **Narzędzie:** `coverage.py`
