@@ -1,4 +1,4 @@
-#Test integracyjny: zależności między zgłoszeniami
+# Test integracyjny: zależności między zgłoszeniami
 # Zajęcia 3 zadanie 1
 
 
