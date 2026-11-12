@@ -60,7 +60,7 @@ Zwraca liczbę sekund z przedziału, które mieszczą się w godzinach pracy. Uw
 | TC-DTS-04 | 18:00-20:00 | `0` | Przedział poza godzinami pracy - zero, nie wartość ujemna |
 | TC-DTS-05 | 09:00-17:00 | `28800` (8h) | Wartość brzegowa - przedział równy oknu otwarcia |
 | TC-DTS-06 | 10:00-10:00 | `0` | Wartość brzegowa - przedział zerowej długości |
-| TC-DTS-07 | 10:00-12:00, godziny `(17, 9)` | `ImproperlyConfigured` | Przypadek negatywny - błędna konfiguracja zgłasza wyjątek |
+| TC-DTS-07 | 17:00-09:00 | `ImproperlyConfigured` | Przypadek negatywny - błędna konfiguracja zgłasza wyjątek |
 
 ### `in_list(value, arg) -> bool`
 
