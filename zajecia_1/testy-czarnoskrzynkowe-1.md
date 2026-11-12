@@ -54,13 +54,13 @@ Zwraca liczbę sekund z przedziału, które mieszczą się w godzinach pracy. Uw
 
 | ID | Wejście | Oczekiwane wyjście | Co sprawdza |
 |---|---|---|---|
-| TC-DTS-01 | 10:00–12:00 | `7200` | Przedział w całości w godzinach pracy |
-| TC-DTS-02 | 08:00–10:00 | `3600` | Obcięcie części przed otwarciem |
-| TC-DTS-03 | 16:00–18:00 | `3600` | Obcięcie części po zamknięciu |
-| TC-DTS-04 | 18:00–20:00 | `0` | Przedział poza godzinami pracy - zero, nie wartość ujemna |
-| TC-DTS-05 | 09:00–17:00 | `28800` (8h) | Wartość brzegowa - przedział równy oknu otwarcia |
-| TC-DTS-06 | 10:00–10:00 | `0` | Wartość brzegowa - przedział zerowej długości |
-| TC-DTS-07 | 10:00–12:00, godziny `(17, 9)` | `ImproperlyConfigured` | Przypadek negatywny - błędna konfiguracja zgłasza wyjątek |
+| TC-DTS-01 | 10:00-12:00 | `7200` | Przedział w całości w godzinach pracy |
+| TC-DTS-02 | 08:00-10:00 | `3600` | Obcięcie części przed otwarciem |
+| TC-DTS-03 | 16:00-18:00 | `3600` | Obcięcie części po zamknięciu |
+| TC-DTS-04 | 18:00-20:00 | `0` | Przedział poza godzinami pracy - zero, nie wartość ujemna |
+| TC-DTS-05 | 09:00-17:00 | `28800` (8h) | Wartość brzegowa - przedział równy oknu otwarcia |
+| TC-DTS-06 | 10:00-10:00 | `0` | Wartość brzegowa - przedział zerowej długości |
+| TC-DTS-07 | 10:00-12:00, godziny `(17, 9)` | `ImproperlyConfigured` | Przypadek negatywny - błędna konfiguracja zgłasza wyjątek |
 
 ### `in_list(value, arg) -> bool`
 
